@@ -1,0 +1,61 @@
+body {
+  background-image: url('/public/backgroundPicture1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+* {
+  color: white;
+}
+
+.custom-min-height {
+  min-height: 60vh;
+}
+
+input.transparent-background {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom-color: #0d6efd;
+  color: white;
+}
+
+input.transparent-background::placeholder {
+  color: white;
+}
+
+input.transparent-background:focus {
+  background-color: transparent; 
+  border-color: transparent; 
+  border-bottom-color: #0d6efd;
+  box-shadow: none; 
+  color: white;
+}
+
+p {
+  margin-bottom: 0 !important;
+  font-size: 1.1rem;
+}
+
+.icon {
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #0d6efd;
+  opacity: 75%;
+}
+
+.header {
+  transition: all 0.7s;
+}
+.header-scrolled {
+  background-color: rgb(33,37,41);
+  box-shadow: 0 3px 40px #0d6efd;
+}
+
+
+
+
+
