@@ -1,7 +1,7 @@
 // all the functions below are used after the authorization, i.e. after the redirectURI kicks in
 
 export async function getAccessToken(code, setAccessToken) {
-  const redirectUri = 'http://localhost:3000';
+  const redirectUri = 'https://groooving.netlify.app/';
 
   let codeVerifier = localStorage.getItem('code_verifier');
 

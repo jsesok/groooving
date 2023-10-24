@@ -26,7 +26,7 @@ function ChosenTrackList({
 
   // authorization process
   async function handleSaveToSpotifyClick() {
-    const redirectUri = "http://localhost:3000";
+    const redirectUri = "https://groooving.netlify.app/";
 
     let codeVerifier = generateRandomString(128);
 
